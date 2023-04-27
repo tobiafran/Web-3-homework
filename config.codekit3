@@ -19,17 +19,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/deploy/img/headericon.png": {
-		"ft": 32768,
-		"iS": 526,
-		"oA": 0,
-		"oAP": "/deploy/img/headericon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -47,10 +36,38 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/content/gallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/dev/content/gallery.html",
+		"oF": 0
+		},
+	"/dev/content/hero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/dev/content/hero.html",
+		"oF": 0
+		},
+	"/dev/content/section-1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/dev/content/section-1.html",
+		"oF": 0
+		},
+	"/dev/content/section-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "/dev/content/section-2.html",
+		"oF": 0
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
@@ -71,7 +88,7 @@
 	"/dev/global/scripts.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
 		"oF": 0
 		},
@@ -222,6 +239,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_gallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_gallery.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -242,7 +298,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 702951266.63963604,
-	"displayValue": "Week-2-homework",
+	"displayValue": "Web-3-homework",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-obama",
 	"iconImageWasSetByUser": 0

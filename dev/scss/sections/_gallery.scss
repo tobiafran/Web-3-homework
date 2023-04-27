@@ -1,0 +1,16 @@
+#gallery{
+    background-color: var(--gray);
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none;
+            background: var(--lightGray);
+            padding-top: 150px;
+            padding-bottom: 150px;
+            width: 100%;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+    }
+}
