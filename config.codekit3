@@ -50,6 +50,13 @@
 		"oAP": "/dev/content/hero.html",
 		"oF": 0
 		},
+	"/dev/content/newfile.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "/dev/content/newfile.html",
+		"oF": 0
+		},
 	"/dev/content/section-1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -60,7 +67,7 @@
 	"/dev/content/section-2.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/content/section-2.html",
 		"oF": 0
 		},
@@ -90,6 +97,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/dev/global/scripts.html",
+		"oF": 0
+		},
+	"/dev/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/dev/index.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {

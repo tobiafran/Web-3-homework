@@ -1,10 +1,41 @@
 /* =============
     Section 1
 ============= */
-#section-1{
-    background-color: var(--blue);
-    color: var(--white);
-    padding: 100px 0;
-    text-align: center;
+
+.four-column{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". section1 ."
+    ". section2 .";
+
+    #section-1{
+        background-color: var(--blue);
+        color: var(--white);
+        padding: 100px 0;
+        text-align: center;
+        grid-area: section1;
+        
+    }
+
+    #section-2{
+        background-color: var(--darkBlue);
+        color: var(--white);
+        padding: 100px 0;
+        text-align: center;
+        grid-area: section2;
+    } 
+
+    @include md{
+        grid-template-columns: 40px 1fr 2fr 40px;
+        grid-template-areas: ". section1 section2 .";
+    }
+
+    @include lg{
+        grid-template-columns: 40px 1fr 1fr 40px;
+    }
+
+   
 }
+
 
