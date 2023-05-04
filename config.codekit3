@@ -19,6 +19,177 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/footer/location-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/footer/location-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/deploy/img/footer/phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/footer/phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/deploy/img/gallery/gallery-1.jpg": {
+		"ft": 16384,
+		"iS": 759927,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/gallery-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/gallery-2.jpg": {
+		"ft": 16384,
+		"iS": 126572,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/gallery-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/gallery/gallery-3.jpg": {
+		"ft": 16384,
+		"iS": 119812,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/gallery/gallery-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/global/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/global/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/deploy/img/header/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/header/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/deploy/img/header/search-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/header/search-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/deploy/img/hero/hero.jpg": {
+		"ft": 16384,
+		"iS": 719188,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/hero/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/new/new-1.jpg": {
+		"ft": 16384,
+		"iS": 54702,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/new/new-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/new/new-2.jpg": {
+		"ft": 16384,
+		"iS": 82295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/new/new-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/new/new-3.jpg": {
+		"ft": 16384,
+		"iS": 65753,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/new/new-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/new/new-4.jpg": {
+		"ft": 16384,
+		"iS": 53583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/new/new-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/new/new-5.jpg": {
+		"ft": 16384,
+		"iS": 70547,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/new/new-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/subHero/planning.jpg": {
+		"ft": 16384,
+		"iS": 15980,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/subHero/planning.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/subHero/tickets.jpg": {
+		"ft": 16384,
+		"iS": 14290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/subHero/tickets.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -55,20 +226,6 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "/dev/content/new.html",
-		"oF": 0
-		},
-	"/dev/content/section-1.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "/dev/content/section-1.html",
-		"oF": 0
-		},
-	"/dev/content/section-2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"oA": 0,
-		"oAP": "/dev/content/section-2.html",
 		"oF": 0
 		},
 	"/dev/content/subHero.kit": {
@@ -253,7 +410,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/scss/sections/_gallery.scss": {
+	"/dev/scss/sections/_subhero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -261,33 +418,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_gallery.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section-1.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/dev/scss/sections/_section-2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/_section-2.css",
+		"oAP": "/dev/scss/sections/_subhero.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

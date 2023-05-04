@@ -1,0 +1,30 @@
+#subhero {
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+    aside {
+        height: 200px;
+        padding: 10px;
+
+        h1 {
+            color: green;
+        }
+
+        img {
+            width: 50%;
+        }
+
+        &.left {
+            background-color: orange;
+
+            h1 {
+                color: white;
+            }
+        }
+
+        &.right {
+            background-color: purple;
+        }
+    }
+}

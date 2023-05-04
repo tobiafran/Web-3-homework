@@ -1,3 +1,44 @@
 /* =============
     Header
 ============= */
+
+
+
+
+
+#subhero{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    aside{
+        background-color: purple;
+       
+        img{width:100px;}
+
+        h1{
+            color:green;
+            padding: 20px;
+        }
+
+
+        &.right{
+            
+            h1{
+                color:black;
+            }
+        }
+    }
+    
+
+}
+
+
+#hero{
+
+   article.rightside{
+        a{
+
+        }
+    }
+}
