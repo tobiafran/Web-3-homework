@@ -1,0 +1,58 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    nav{
+        background-color: $navy;
+        padding: 24px;
+        display: flex;
+
+        div{
+            display: none;
+
+            @include md {
+                display: inline;
+                padding-left: 17px;
+            }
+        }
+
+        img{
+            width: 43px;
+        }
+        
+        h1, h3{
+            color: white;
+            margin: 0;
+        }
+    }
+
+
+    section{
+        padding: 24px;
+
+        form#search{
+            display: flex;
+            width: 100%;
+            align-items:stretch;
+            justify-content: space-between;
+            gap: 10px;
+
+            input{
+                border: none;
+                width: 100%;
+                border-bottom: 1px solid $neonblue;
+            }
+
+            button{
+                background-color: $orange;
+                border-radius: 3.5px;
+                border: none;
+                padding: 6px 11px;
+                
+                img{
+
+                }
+            }
+        }
+    }
+}

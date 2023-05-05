@@ -8,8 +8,7 @@
 ============= */
 :root {
   --black: #000000;
-  --white: #ffffff;
-  --textcolor: #efefef; }
+  --white: #ffffff; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -322,16 +321,12 @@ template {
 img {
   width: 100%; }
 
-h3 {
-  background-color: var(--textcolor);
-  margin: 10px 100px; }
-  @media (min-width: 768px) {
-    h3 {
-      margin: 100px 200px; } }
-
 /* =============
     Typography
 ============= */
+* {
+  font-family: Arial, Helvetica, sans-serif; }
+
 /* =============
     Buttons
 ============= */
@@ -372,19 +367,65 @@ textarea {
 /* =============
     Footer
 ============= */
-#subhero {
+header {
   display: grid;
   grid-template-columns: 1fr; }
-  #subhero aside {
-    height: 200px;
-    padding: 10px; }
-    #subhero aside h1 {
-      color: green; }
-    #subhero aside img {
-      width: 50%; }
-    #subhero aside.left {
-      background-color: orange; }
-      #subhero aside.left h1 {
-        color: white; }
-    #subhero aside.right {
-      background-color: purple; }
+  header nav {
+    background-color: #293241;
+    padding: 24px;
+    display: flex; }
+    header nav div {
+      display: none; }
+      @media (min-width: 768px) {
+        header nav div {
+          display: inline;
+          padding-left: 17px; } }
+    header nav img {
+      width: 43px; }
+    header nav h1, header nav h3 {
+      color: white;
+      margin: 0; }
+  header section {
+    padding: 24px; }
+    header section form#search {
+      display: flex;
+      width: 100%;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 10px; }
+      header section form#search input {
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid #E0FBFC; }
+      header section form#search button {
+        background-color: #EE6C4D;
+        border-radius: 3.5px;
+        border: none;
+        padding: 6px 11px; }
+
+#hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "heroimg"   "leftaside"   "rightarticle"; }
+  @media (min-width: 768px) {
+    #hero {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "heroimg heroimg "   "leftaside rightarticle"; } }
+  @media (min-width: 1024px) {
+    #hero {
+      grid-template-columns: 1fr 1fr; } }
+  #hero img {
+    grid-area: heroimg; }
+  #hero aside {
+    grid-area: leftaside;
+    background-color: #C04D32; }
+  #hero article {
+    grid-area: rightarticle;
+    background-color: #EE6C4D; }
+  #hero aside, #hero article {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between; }
+    #hero aside a, #hero article a {
+      padding: 20px;
+      color: white; }

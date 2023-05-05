@@ -1,30 +1,45 @@
-#subhero {
+#hero{
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas:
+    "heroimg"  
+    "leftaside"  
+    "rightarticle";
 
+    @include md{
+        grid-template-columns: 1fr 2fr; 
+        grid-template-areas:
+        "heroimg heroimg "  
+        "leftaside rightarticle" ;    
+    }
 
-    aside {
-        height: 200px;
-        padding: 10px;
+    @include lg{
+        grid-template-columns: 1fr 1fr; 
+    }
 
-        h1 {
-            color: green;
-        }
+    img{
+        grid-area: heroimg;
+    }
 
-        img {
-            width: 50%;
-        }
+    aside{
+        grid-area: leftaside;
+        background-color: $burntorange;
+    }
 
-        &.left {
-            background-color: orange;
+    article{
+        grid-area: rightarticle;
+        background-color: $orange;
+    }
 
-            h1 {
-                color: white;
-            }
-        }
+    aside, article{
+        padding: 24px;
+        display: flex;
+        justify-content: space-between;
 
-        &.right {
-            background-color: purple;
+        a{
+            padding: 20px;
+            color: white;
         }
     }
+
 }

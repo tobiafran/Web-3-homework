@@ -2,18 +2,6 @@
     Base
 ============= */
 
-
-img {
+img{
     width: 100%;
-}
-
-
-
-h3{
-    background-color: var(--textcolor);
-    margin: $marginmobile;
-
-    @include md{
-        margin: $margindesktop;
-    }
 }
