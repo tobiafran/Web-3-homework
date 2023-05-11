@@ -1,3 +1,21 @@
 /* =============
     Footer
 ============= */
+ footer{
+
+    a{
+        background-color: black;
+        color: white;
+        padding: 20px;
+        margin: 100px;
+
+        &:hover{
+            background-color: blue;
+            transition: .5s;
+            border-radius: 20px;
+        }
+    }
+ }
+
+
+ 

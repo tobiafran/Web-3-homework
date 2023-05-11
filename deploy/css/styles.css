@@ -324,8 +324,23 @@ img {
 /* =============
     Typography
 ============= */
-* {
-  font-family: Arial, Helvetica, sans-serif; }
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 35px; } }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Quicksand', sans-serif; }
 
 /* =============
     Buttons
@@ -367,6 +382,16 @@ textarea {
 /* =============
     Footer
 ============= */
+footer a {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 100px; }
+  footer a:hover {
+    background-color: blue;
+    transition: .5s;
+    border-radius: 20px; }
+
 header {
   display: grid;
   grid-template-columns: 1fr; }
@@ -429,3 +454,46 @@ header {
     #hero aside a, #hero article a {
       padding: 20px;
       color: white; }
+
+section#gallery ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "imgone" "imgtwo"; }
+  section#gallery ul li.imgone {
+    grid-area: imgone;
+    height: 400px;
+    background-image: url(../img/gallery/gallery-1.jpg);
+    background-size: cover;
+    background-position: center center; }
+  section#gallery ul li.imgtwo {
+    grid-area: imgtwo;
+    height: 400px;
+    background-image: url(../img/gallery/gallery-2.jpg);
+    background-size: cover;
+    background-position: center center; }
+  section#gallery ul li.imgthree {
+    grid-area: imgthree;
+    height: 400px;
+    background-image: url(../img/gallery/gallery-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: none; }
+  @media (min-width: 768px) {
+    section#gallery ul {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "imgone imgtwo"; }
+      section#gallery ul li.imgone, section#gallery ul li.imgtwo {
+        height: 900px; } }
+  @media (min-width: 1024px) {
+    section#gallery ul {
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: "imgone imgtwo" "imgone imgthree"; }
+      section#gallery ul li.imgthree {
+        display: inline; }
+      section#gallery ul li.imgtwo, section#gallery ul li.imgthree {
+        height: 400px; }
+      section#gallery ul li.imgone {
+        height: auto; } }

@@ -1,0 +1,70 @@
+section#gallery {
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "imgone"
+        "imgtwo";
+
+        li.imgone {
+            grid-area: imgone;
+
+            height: 400px;
+            background-image: url(../img/gallery/gallery-1.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        li.imgtwo {
+            grid-area: imgtwo;
+
+            height: 400px;
+            background-image: url(../img/gallery/gallery-2.jpg);
+            background-size: cover;
+            background-position: center center;
+        }
+
+        li.imgthree {
+            grid-area: imgthree;
+            
+            height: 400px;
+            background-image: url(../img/gallery/gallery-3.jpg);
+            background-size: cover;
+            background-position: center center;
+            display: none;
+        }
+
+        @include md{
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "imgone imgtwo";
+
+            li.imgone, li.imgtwo{
+                height: 900px;
+            }
+        }
+
+        @include lg {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+                "imgone imgtwo"
+                "imgone imgthree";
+
+            li.imgthree{
+                display: inline;
+            }
+
+            li.imgtwo, li.imgthree{
+                height: 400px;
+            }
+
+            li.imgone{
+                height: auto;
+            }
+        }
+    }
+}

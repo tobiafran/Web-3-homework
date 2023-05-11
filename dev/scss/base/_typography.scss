@@ -2,6 +2,30 @@
     Typography
 ============= */
 
-*{
-    font-family: Arial, Helvetica, sans-serif;
+
+// font-family: 'Quicksand', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+
+    @include md{
+        font-size: 35px;
+    }
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Quicksand', sans-serif;
 }
