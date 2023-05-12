@@ -455,45 +455,59 @@ header {
       padding: 20px;
       color: white; }
 
-section#gallery ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+#hero {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "imgone" "imgtwo"; }
-  section#gallery ul li.imgone {
-    grid-area: imgone;
-    height: 400px;
-    background-image: url(../img/gallery/gallery-1.jpg);
-    background-size: cover;
-    background-position: center center; }
-  section#gallery ul li.imgtwo {
-    grid-area: imgtwo;
-    height: 400px;
-    background-image: url(../img/gallery/gallery-2.jpg);
-    background-size: cover;
-    background-position: center center; }
-  section#gallery ul li.imgthree {
-    grid-area: imgthree;
-    height: 400px;
-    background-image: url(../img/gallery/gallery-3.jpg);
-    background-size: cover;
-    background-position: center center;
-    display: none; }
+  grid-template-areas: "heroimg"   "leftaside"   "rightarticle"; }
   @media (min-width: 768px) {
-    section#gallery ul {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "imgone imgtwo"; }
-      section#gallery ul li.imgone, section#gallery ul li.imgtwo {
-        height: 900px; } }
+    #hero {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: "heroimg heroimg "   "leftaside rightarticle"; } }
   @media (min-width: 1024px) {
-    section#gallery ul {
-      grid-template-columns: 1fr 1fr;
-      grid-template-areas: "imgone imgtwo" "imgone imgthree"; }
-      section#gallery ul li.imgthree {
-        display: inline; }
-      section#gallery ul li.imgtwo, section#gallery ul li.imgthree {
-        height: 400px; }
-      section#gallery ul li.imgone {
-        height: auto; } }
+    #hero {
+      grid-template-columns: 1fr 1fr; } }
+  #hero img {
+    grid-area: heroimg; }
+  #hero aside {
+    grid-area: leftaside;
+    background-color: #C04D32; }
+  #hero article {
+    grid-area: rightarticle;
+    background-color: #EE6C4D; }
+  #hero aside, #hero article {
+    padding: 24px;
+    display: flex;
+    justify-content: space-between; }
+    #hero aside a, #hero article a {
+      padding: 20px;
+      color: white; }
+
+#whatsnew {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; }
+  #whatsnew figure {
+    margin: 0;
+    overflow: hidden; }
+  #whatsnew section .textdetail {
+    background-color: #E0FBFC;
+    padding: 15px; }
+    #whatsnew section .textdetail h1 {
+      margin: 0; }
+  @media (min-width: 768px) {
+    #whatsnew {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 25px; }
+      #whatsnew section {
+        width: 48%; }
+      #whatsnew section:last-child {
+        margin: 0 auto; } }
+  @media (min-width: 1024px) {
+    #whatsnew {
+      justify-content: center; }
+      #whatsnew section {
+        width: 31%; }
+      #whatsnew section:last-child {
+        margin: 0; } }

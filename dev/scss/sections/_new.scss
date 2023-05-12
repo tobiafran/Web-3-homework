@@ -1,0 +1,47 @@
+ #whatsnew{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+    figure{
+        margin: 0;
+        overflow: hidden;
+    }
+
+    section{
+        .textdetail{
+            background-color: $neonblue;
+            padding: 15px;
+            h1{
+                margin: 0;
+            }
+        }
+    }
+
+    @include md{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 25px;
+
+        section{
+            width: 48%;
+        }
+
+        section:last-child{
+            margin: 0 auto;
+        }
+    }
+
+    @include lg{
+        justify-content: center;
+        section{
+            width: 31%;
+        }
+
+        section:last-child{
+            margin: 0;
+        }
+    }
+ }
